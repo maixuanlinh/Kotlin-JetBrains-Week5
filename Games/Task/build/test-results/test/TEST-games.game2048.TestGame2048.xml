@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="games.game2048.TestGame2048" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-05T12:31:35" hostname="Mais-MacBook-Pro.local" time="0.06">
+  <properties/>
+  <testcase name="testMoves" classname="games.game2048.TestGame2048" time="0.06"/>
+  <system-out><![CDATA[[]
+Direction: RIGHT Iteration: 1
+Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+  Previous values: [2, null, null, 2]
+  Moved values: [4]
+Direction: RIGHT Iteration: 2
+Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: RIGHT Iteration: 3
+Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: RIGHT Iteration: 4
+Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Results: [true, false, false, false]
+Direction: UP Iteration: 1
+Cells: [(1, 1), (2, 1), (3, 1), (4, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: UP Iteration: 2
+Cells: [(1, 2), (2, 2), (3, 2), (4, 2)]
+  Previous values: [null, null, 4, null]
+  Moved values: [4]
+Direction: UP Iteration: 3
+Cells: [(1, 3), (2, 3), (3, 3), (4, 3)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: UP Iteration: 4
+Cells: [(1, 4), (2, 4), (3, 4), (4, 4)]
+  Previous values: [4, null, null, null]
+  Moved values: [4]
+Results: [false, true, false, true]
+Direction: LEFT Iteration: 1
+Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+  Previous values: [null, 4, null, 4]
+  Moved values: [8]
+Direction: LEFT Iteration: 2
+Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: LEFT Iteration: 3
+Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: LEFT Iteration: 4
+Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+  Previous values: [null, 2, null, null]
+  Moved values: [2]
+Results: [true, false, false, true]
+Direction: DOWN Iteration: 1
+Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+  Previous values: [2, null, null, 8]
+  Moved values: [2, 8]
+Direction: DOWN Iteration: 2
+Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+  Previous values: [null, null, 2, null]
+  Moved values: [2]
+Direction: DOWN Iteration: 3
+Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: DOWN Iteration: 4
+Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Results: [true, true, false, false]
+Direction: RIGHT Iteration: 1
+Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: RIGHT Iteration: 2
+Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: RIGHT Iteration: 3
+Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+  Previous values: [null, null, null, 8]
+  Moved values: [8]
+Direction: RIGHT Iteration: 4
+Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+  Previous values: [2, null, 2, 2]
+  Moved values: [4, 2]
+Results: [false, false, true, true]
+Direction: DOWN Iteration: 1
+Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: DOWN Iteration: 2
+Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: DOWN Iteration: 3
+Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+  Previous values: [2, 2, null, null]
+  Moved values: [4]
+Direction: DOWN Iteration: 4
+Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+  Previous values: [4, 8, null, null]
+  Moved values: [4, 8]
+Results: [false, false, true, true]
+Direction: RIGHT Iteration: 1
+Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+  Previous values: [null, null, 4, null]
+  Moved values: [4]
+Direction: RIGHT Iteration: 2
+Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: RIGHT Iteration: 3
+Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+  Previous values: [8, null, null, null]
+  Moved values: [8]
+Direction: RIGHT Iteration: 4
+Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+  Previous values: [4, 4, null, null]
+  Moved values: [8]
+Results: [true, false, true, true]
+Direction: DOWN Iteration: 1
+Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+  Previous values: [null, 2, null, null]
+  Moved values: [2]
+Direction: DOWN Iteration: 2
+Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: DOWN Iteration: 3
+Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: DOWN Iteration: 4
+Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+  Previous values: [8, 8, null, 4]
+  Moved values: [16, 4]
+Results: [true, false, false, true]
+Direction: DOWN Iteration: 1
+Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+  Previous values: [2, null, null, null]
+  Moved values: [2]
+Direction: DOWN Iteration: 2
+Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: DOWN Iteration: 3
+Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+  Previous values: [null, 2, null, null]
+  Moved values: [2]
+Direction: DOWN Iteration: 4
+Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+  Previous values: [16, 4, null, null]
+  Moved values: [16, 4]
+Results: [true, false, true, true]
+Direction: RIGHT Iteration: 1
+Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: RIGHT Iteration: 2
+Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+  Previous values: [null, 2, null, null]
+  Moved values: [2]
+Direction: RIGHT Iteration: 3
+Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+  Previous values: [4, null, null, null]
+  Moved values: [4]
+Direction: RIGHT Iteration: 4
+Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+  Previous values: [16, 2, null, 2]
+  Moved values: [16, 4]
+Results: [false, true, true, true]
+Direction: LEFT Iteration: 1
+Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+  Previous values: [null, null, null, 2]
+  Moved values: [2]
+Direction: LEFT Iteration: 2
+Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+  Previous values: [null, null, null, 2]
+  Moved values: [2]
+Direction: LEFT Iteration: 3
+Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+  Previous values: [null, null, null, 4]
+  Moved values: [4]
+Direction: LEFT Iteration: 4
+Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+  Previous values: [null, null, 4, 16]
+  Moved values: [4, 16]
+Results: [true, true, true, true]
+Direction: DOWN Iteration: 1
+Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+  Previous values: [4, 4, 2, 2]
+  Moved values: [8, 4]
+Direction: DOWN Iteration: 2
+Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+  Previous values: [16, 2, null, null]
+  Moved values: [16, 2]
+Direction: DOWN Iteration: 3
+Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Direction: DOWN Iteration: 4
+Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+  Previous values: [null, null, null, null]
+  Moved values: []
+Results: [true, true, false, false]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

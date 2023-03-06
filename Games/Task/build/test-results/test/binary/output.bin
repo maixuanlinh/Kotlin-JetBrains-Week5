@@ -1,0 +1,623 @@
+*)[]
+*)Direction: RIGHT Iteration: 1
+*)(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+*)&  Previous values: [2, null, null, 2]
+*)  Moved values: [4]
+*)Direction: RIGHT Iteration: 2
+*)(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: RIGHT Iteration: 3
+*)(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: RIGHT Iteration: 4
+*)(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)%Results: [true, false, false, false]
+*)Direction: UP Iteration: 1
+*)(Cells: [(1, 1), (2, 1), (3, 1), (4, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: UP Iteration: 2
+*)(Cells: [(1, 2), (2, 2), (3, 2), (4, 2)]
+*))  Previous values: [null, null, 4, null]
+*)  Moved values: [4]
+*)Direction: UP Iteration: 3
+*)(Cells: [(1, 3), (2, 3), (3, 3), (4, 3)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: UP Iteration: 4
+*)(Cells: [(1, 4), (2, 4), (3, 4), (4, 4)]
+*))  Previous values: [4, null, null, null]
+*)  Moved values: [4]
+*)$Results: [false, true, false, true]
+*)Direction: LEFT Iteration: 1
+*)(Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+*)&  Previous values: [null, 4, null, 4]
+*)  Moved values: [8]
+*)Direction: LEFT Iteration: 2
+*)(Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: LEFT Iteration: 3
+*)(Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: LEFT Iteration: 4
+*)(Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+*))  Previous values: [null, 2, null, null]
+*)  Moved values: [2]
+*)$Results: [true, false, false, true]
+*)Direction: DOWN Iteration: 1
+*)(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+*)&  Previous values: [2, null, null, 8]
+*)  Moved values: [2, 8]
+*)Direction: DOWN Iteration: 2
+*)(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+*))  Previous values: [null, null, 2, null]
+*)  Moved values: [2]
+*)Direction: DOWN Iteration: 3
+*)(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: DOWN Iteration: 4
+*)(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)$Results: [true, true, false, false]
+*)Direction: RIGHT Iteration: 1
+*)(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: RIGHT Iteration: 2
+*)(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: RIGHT Iteration: 3
+*)(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+*))  Previous values: [null, null, null, 8]
+*)  Moved values: [8]
+*)Direction: RIGHT Iteration: 4
+*)(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+*)#  Previous values: [2, null, 2, 2]
+*)  Moved values: [4, 2]
+*)$Results: [false, false, true, true]
+*)Direction: DOWN Iteration: 1
+*)(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: DOWN Iteration: 2
+*)(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: DOWN Iteration: 3
+*)(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+*)&  Previous values: [2, 2, null, null]
+*)  Moved values: [4]
+*)Direction: DOWN Iteration: 4
+*)(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+*)&  Previous values: [4, 8, null, null]
+*)  Moved values: [4, 8]
+*)$Results: [false, false, true, true]
+*)Direction: RIGHT Iteration: 1
+*)(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+*))  Previous values: [null, null, 4, null]
+*)  Moved values: [4]
+*)Direction: RIGHT Iteration: 2
+*)(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: RIGHT Iteration: 3
+*)(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+*))  Previous values: [8, null, null, null]
+*)  Moved values: [8]
+*)Direction: RIGHT Iteration: 4
+*)(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+*)&  Previous values: [4, 4, null, null]
+*)  Moved values: [8]
+*)#Results: [true, false, true, true]
+*)Direction: DOWN Iteration: 1
+*)(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+*))  Previous values: [null, 2, null, null]
+*)  Moved values: [2]
+*)Direction: DOWN Iteration: 2
+*)(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: DOWN Iteration: 3
+*)(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: DOWN Iteration: 4
+*)(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+*)#  Previous values: [8, 8, null, 4]
+*)  Moved values: [16, 4]
+*)$Results: [true, false, false, true]
+*)Direction: DOWN Iteration: 1
+*)(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+*))  Previous values: [2, null, null, null]
+*)  Moved values: [2]
+*)Direction: DOWN Iteration: 2
+*)(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: DOWN Iteration: 3
+*)(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+*))  Previous values: [null, 2, null, null]
+*)  Moved values: [2]
+*)Direction: DOWN Iteration: 4
+*)(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+*)'  Previous values: [16, 4, null, null]
+*)  Moved values: [16, 4]
+*)#Results: [true, false, true, true]
+*)Direction: RIGHT Iteration: 1
+*)(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: RIGHT Iteration: 2
+*)(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+*))  Previous values: [null, 2, null, null]
+*)  Moved values: [2]
+*)Direction: RIGHT Iteration: 3
+*)(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+*))  Previous values: [4, null, null, null]
+*)  Moved values: [4]
+*)Direction: RIGHT Iteration: 4
+*)(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+*)$  Previous values: [16, 2, null, 2]
+*)  Moved values: [16, 4]
+*)#Results: [false, true, true, true]
+*)Direction: LEFT Iteration: 1
+*)(Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+*))  Previous values: [null, null, null, 2]
+*)  Moved values: [2]
+*)Direction: LEFT Iteration: 2
+*)(Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+*))  Previous values: [null, null, null, 2]
+*)  Moved values: [2]
+*)Direction: LEFT Iteration: 3
+*)(Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+*))  Previous values: [null, null, null, 4]
+*)  Moved values: [4]
+*)Direction: LEFT Iteration: 4
+*)(Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+*)'  Previous values: [null, null, 4, 16]
+*)  Moved values: [4, 16]
+*)"Results: [true, true, true, true]
+*)Direction: DOWN Iteration: 1
+*)(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+*)   Previous values: [4, 4, 2, 2]
+*)  Moved values: [8, 4]
+*)Direction: DOWN Iteration: 2
+*)(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+*)'  Previous values: [16, 2, null, null]
+*)  Moved values: [16, 2]
+*)Direction: DOWN Iteration: 3
+*)(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)Direction: DOWN Iteration: 4
+*)(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+*),  Previous values: [null, null, null, null]
+*)  Moved values: []
+*)$Results: [true, true, false, false]
+EDDirection: RIGHT Iteration: 1
+ED(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+EDDirection: RIGHT Iteration: 2
+ED(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+EDDirection: RIGHT Iteration: 3
+ED(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+ED)  Previous values: [null, null, 2, null]
+ED  Moved values: [2]
+EDDirection: RIGHT Iteration: 4
+ED(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+ED%Results: [false, false, true, false]
+EDDirection: LEFT Iteration: 1
+ED(Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+EDDirection: LEFT Iteration: 2
+ED(Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+ED)  Previous values: [null, null, 2, null]
+ED  Moved values: [2]
+EDDirection: LEFT Iteration: 3
+ED(Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+EDDirection: LEFT Iteration: 4
+ED(Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+ED%Results: [false, true, false, false]
+EDDirection: DOWN Iteration: 1
+ED(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+EDDirection: DOWN Iteration: 2
+ED(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+EDDirection: DOWN Iteration: 3
+ED(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+ED)  Previous values: [null, null, 2, null]
+ED  Moved values: [2]
+EDDirection: DOWN Iteration: 4
+ED(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+ED%Results: [false, false, true, false]
+EDDirection: UP Iteration: 1
+ED(Cells: [(1, 1), (2, 1), (3, 1), (4, 1)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+EDDirection: UP Iteration: 2
+ED(Cells: [(1, 2), (2, 2), (3, 2), (4, 2)]
+ED)  Previous values: [null, null, 2, null]
+ED  Moved values: [2]
+EDDirection: UP Iteration: 3
+ED(Cells: [(1, 3), (2, 3), (3, 3), (4, 3)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+EDDirection: UP Iteration: 4
+ED(Cells: [(1, 4), (2, 4), (3, 4), (4, 4)]
+ED,  Previous values: [null, null, null, null]
+ED  Moved values: []
+ED%Results: [false, true, false, false]
+EFDirection: RIGHT Iteration: 1
+EF(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+EF)  Previous values: [null, null, null, 2]
+EF  Moved values: [2]
+EFDirection: RIGHT Iteration: 2
+EF(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+EF)  Previous values: [null, null, 2, null]
+EF  Moved values: [2]
+EFDirection: RIGHT Iteration: 3
+EF(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+EF)  Previous values: [null, 2, null, null]
+EF  Moved values: [2]
+EFDirection: RIGHT Iteration: 4
+EF(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+EF)  Previous values: [2, null, null, null]
+EF  Moved values: [2]
+EF"Results: [true, true, true, true]
+EFDirection: LEFT Iteration: 1
+EF(Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+EF)  Previous values: [2, null, null, null]
+EF  Moved values: [2]
+EFDirection: LEFT Iteration: 2
+EF(Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+EF)  Previous values: [null, 2, null, null]
+EF  Moved values: [2]
+EFDirection: LEFT Iteration: 3
+EF(Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+EF)  Previous values: [null, null, 2, null]
+EF  Moved values: [2]
+EFDirection: LEFT Iteration: 4
+EF(Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+EF)  Previous values: [null, null, null, 2]
+EF  Moved values: [2]
+EF"Results: [true, true, true, true]
+EFDirection: DOWN Iteration: 1
+EF(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+EF)  Previous values: [null, null, null, 2]
+EF  Moved values: [2]
+EFDirection: DOWN Iteration: 2
+EF(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+EF)  Previous values: [null, null, 2, null]
+EF  Moved values: [2]
+EFDirection: DOWN Iteration: 3
+EF(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+EF)  Previous values: [null, 2, null, null]
+EF  Moved values: [2]
+EFDirection: DOWN Iteration: 4
+EF(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+EF)  Previous values: [2, null, null, null]
+EF  Moved values: [2]
+EF"Results: [true, true, true, true]
+EFDirection: UP Iteration: 1
+EF(Cells: [(1, 1), (2, 1), (3, 1), (4, 1)]
+EF)  Previous values: [2, null, null, null]
+EF  Moved values: [2]
+EFDirection: UP Iteration: 2
+EF(Cells: [(1, 2), (2, 2), (3, 2), (4, 2)]
+EF)  Previous values: [null, 2, null, null]
+EF  Moved values: [2]
+EFDirection: UP Iteration: 3
+EF(Cells: [(1, 3), (2, 3), (3, 3), (4, 3)]
+EF)  Previous values: [null, null, 2, null]
+EF  Moved values: [2]
+EFDirection: UP Iteration: 4
+EF(Cells: [(1, 4), (2, 4), (3, 4), (4, 4)]
+EF)  Previous values: [null, null, null, 2]
+EF  Moved values: [2]
+EF"Results: [true, true, true, true]
+EGDirection: RIGHT Iteration: 1
+EG(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+EG#  Previous values: [2, 2, null, 2]
+EG  Moved values: [4, 2]
+EGDirection: RIGHT Iteration: 2
+EG(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+EG#  Previous values: [2, 4, null, 2]
+EG  Moved values: [2, 4, 2]
+EGDirection: RIGHT Iteration: 3
+EG(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+EG#  Previous values: [2, null, 2, 2]
+EG  Moved values: [4, 2]
+EGDirection: RIGHT Iteration: 4
+EG(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+EG,  Previous values: [null, null, null, null]
+EG  Moved values: []
+EG#Results: [true, true, true, false]
+EGDirection: LEFT Iteration: 1
+EG(Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+EG,  Previous values: [null, null, null, null]
+EG  Moved values: []
+EGDirection: LEFT Iteration: 2
+EG(Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+EG#  Previous values: [2, null, 2, 2]
+EG  Moved values: [4, 2]
+EGDirection: LEFT Iteration: 3
+EG(Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+EG#  Previous values: [2, 4, null, 2]
+EG  Moved values: [2, 4, 2]
+EGDirection: LEFT Iteration: 4
+EG(Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+EG#  Previous values: [2, 2, null, 2]
+EG  Moved values: [4, 2]
+EG#Results: [false, true, true, true]
+EGDirection: DOWN Iteration: 1
+EG(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+EG#  Previous values: [2, 2, null, 2]
+EG  Moved values: [4, 2]
+EGDirection: DOWN Iteration: 2
+EG(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+EG#  Previous values: [2, 4, null, 2]
+EG  Moved values: [2, 4, 2]
+EGDirection: DOWN Iteration: 3
+EG(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+EG#  Previous values: [2, null, 2, 2]
+EG  Moved values: [4, 2]
+EGDirection: DOWN Iteration: 4
+EG(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+EG,  Previous values: [null, null, null, null]
+EG  Moved values: []
+EG#Results: [true, true, true, false]
+EGDirection: UP Iteration: 1
+EG(Cells: [(1, 1), (2, 1), (3, 1), (4, 1)]
+EG,  Previous values: [null, null, null, null]
+EG  Moved values: []
+EGDirection: UP Iteration: 2
+EG(Cells: [(1, 2), (2, 2), (3, 2), (4, 2)]
+EG#  Previous values: [2, null, 2, 2]
+EG  Moved values: [4, 2]
+EGDirection: UP Iteration: 3
+EG(Cells: [(1, 3), (2, 3), (3, 3), (4, 3)]
+EG#  Previous values: [2, 4, null, 2]
+EG  Moved values: [2, 4, 2]
+EGDirection: UP Iteration: 4
+EG(Cells: [(1, 4), (2, 4), (3, 4), (4, 4)]
+EG#  Previous values: [2, 2, null, 2]
+EG  Moved values: [4, 2]
+EG#Results: [false, true, true, true]
+EHDirection: RIGHT Iteration: 1
+EH(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+EH)  Previous values: [null, null, null, 2]
+EH  Moved values: [2]
+EHDirection: RIGHT Iteration: 2
+EH(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+EH,  Previous values: [null, null, null, null]
+EH  Moved values: []
+EHDirection: RIGHT Iteration: 3
+EH(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+EH)  Previous values: [null, 2, null, null]
+EH  Moved values: [2]
+EHDirection: RIGHT Iteration: 4
+EH(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+EH   Previous values: [4, 2, 4, 2]
+EH  Moved values: [4, 2, 4, 2]
+EH$Results: [true, false, true, false]
+EHDirection: LEFT Iteration: 1
+EH(Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+EH   Previous values: [4, 2, 4, 2]
+EH  Moved values: [4, 2, 4, 2]
+EHDirection: LEFT Iteration: 2
+EH(Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+EH)  Previous values: [null, 2, null, null]
+EH  Moved values: [2]
+EHDirection: LEFT Iteration: 3
+EH(Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+EH,  Previous values: [null, null, null, null]
+EH  Moved values: []
+EHDirection: LEFT Iteration: 4
+EH(Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+EH)  Previous values: [null, null, null, 2]
+EH  Moved values: [2]
+EH$Results: [false, true, false, true]
+EHDirection: DOWN Iteration: 1
+EH(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+EH)  Previous values: [null, null, null, 2]
+EH  Moved values: [2]
+EHDirection: DOWN Iteration: 2
+EH(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+EH,  Previous values: [null, null, null, null]
+EH  Moved values: []
+EHDirection: DOWN Iteration: 3
+EH(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+EH)  Previous values: [null, 2, null, null]
+EH  Moved values: [2]
+EHDirection: DOWN Iteration: 4
+EH(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+EH   Previous values: [4, 2, 4, 2]
+EH  Moved values: [4, 2, 4, 2]
+EH$Results: [true, false, true, false]
+EHDirection: UP Iteration: 1
+EH(Cells: [(1, 1), (2, 1), (3, 1), (4, 1)]
+EH   Previous values: [4, 2, 4, 2]
+EH  Moved values: [4, 2, 4, 2]
+EHDirection: UP Iteration: 2
+EH(Cells: [(1, 2), (2, 2), (3, 2), (4, 2)]
+EH)  Previous values: [null, 2, null, null]
+EH  Moved values: [2]
+EHDirection: UP Iteration: 3
+EH(Cells: [(1, 3), (2, 3), (3, 3), (4, 3)]
+EH,  Previous values: [null, null, null, null]
+EH  Moved values: []
+EHDirection: UP Iteration: 4
+EH(Cells: [(1, 4), (2, 4), (3, 4), (4, 4)]
+EH)  Previous values: [null, null, null, 2]
+EH  Moved values: [2]
+EH$Results: [false, true, false, true]
+EIDirection: RIGHT Iteration: 1
+EI(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+EI&  Previous values: [null, 2, null, 2]
+EI  Moved values: [4]
+EIDirection: RIGHT Iteration: 2
+EI(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+EI&  Previous values: [2, null, 2, null]
+EI  Moved values: [4]
+EIDirection: RIGHT Iteration: 3
+EI(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+EI)  Previous values: [null, 2, null, null]
+EI  Moved values: [2]
+EIDirection: RIGHT Iteration: 4
+EI(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+EI)  Previous values: [2, null, null, null]
+EI  Moved values: [2]
+EI"Results: [true, true, true, true]
+EIDirection: LEFT Iteration: 1
+EI(Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+EI)  Previous values: [2, null, null, null]
+EI  Moved values: [2]
+EIDirection: LEFT Iteration: 2
+EI(Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+EI)  Previous values: [null, 2, null, null]
+EI  Moved values: [2]
+EIDirection: LEFT Iteration: 3
+EI(Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+EI&  Previous values: [2, null, 2, null]
+EI  Moved values: [4]
+EIDirection: LEFT Iteration: 4
+EI(Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+EI&  Previous values: [null, 2, null, 2]
+EI  Moved values: [4]
+EI"Results: [true, true, true, true]
+EIDirection: DOWN Iteration: 1
+EI(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+EI&  Previous values: [null, 2, null, 2]
+EI  Moved values: [4]
+EIDirection: DOWN Iteration: 2
+EI(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+EI&  Previous values: [2, null, 2, null]
+EI  Moved values: [4]
+EIDirection: DOWN Iteration: 3
+EI(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+EI)  Previous values: [null, 2, null, null]
+EI  Moved values: [2]
+EIDirection: DOWN Iteration: 4
+EI(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+EI)  Previous values: [2, null, null, null]
+EI  Moved values: [2]
+EI"Results: [true, true, true, true]
+EIDirection: UP Iteration: 1
+EI(Cells: [(1, 1), (2, 1), (3, 1), (4, 1)]
+EI)  Previous values: [2, null, null, null]
+EI  Moved values: [2]
+EIDirection: UP Iteration: 2
+EI(Cells: [(1, 2), (2, 2), (3, 2), (4, 2)]
+EI)  Previous values: [null, 2, null, null]
+EI  Moved values: [2]
+EIDirection: UP Iteration: 3
+EI(Cells: [(1, 3), (2, 3), (3, 3), (4, 3)]
+EI&  Previous values: [2, null, 2, null]
+EI  Moved values: [4]
+EIDirection: UP Iteration: 4
+EI(Cells: [(1, 4), (2, 4), (3, 4), (4, 4)]
+EI&  Previous values: [null, 2, null, 2]
+EI  Moved values: [4]
+EI"Results: [true, true, true, true]
+EJDirection: RIGHT Iteration: 1
+EJ(Cells: [(1, 4), (1, 3), (1, 2), (1, 1)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: RIGHT Iteration: 2
+EJ(Cells: [(2, 4), (2, 3), (2, 2), (2, 1)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: RIGHT Iteration: 3
+EJ(Cells: [(3, 4), (3, 3), (3, 2), (3, 1)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: RIGHT Iteration: 4
+EJ(Cells: [(4, 4), (4, 3), (4, 2), (4, 1)]
+EJ   Previous values: [4, 2, 4, 2]
+EJ  Moved values: [4, 2, 4, 2]
+EJ&Results: [false, false, false, false]
+EJDirection: LEFT Iteration: 1
+EJ(Cells: [(1, 1), (1, 2), (1, 3), (1, 4)]
+EJ   Previous values: [4, 2, 4, 2]
+EJ  Moved values: [4, 2, 4, 2]
+EJDirection: LEFT Iteration: 2
+EJ(Cells: [(2, 1), (2, 2), (2, 3), (2, 4)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: LEFT Iteration: 3
+EJ(Cells: [(3, 1), (3, 2), (3, 3), (3, 4)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: LEFT Iteration: 4
+EJ(Cells: [(4, 1), (4, 2), (4, 3), (4, 4)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJ&Results: [false, false, false, false]
+EJDirection: DOWN Iteration: 1
+EJ(Cells: [(4, 1), (3, 1), (2, 1), (1, 1)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: DOWN Iteration: 2
+EJ(Cells: [(4, 2), (3, 2), (2, 2), (1, 2)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: DOWN Iteration: 3
+EJ(Cells: [(4, 3), (3, 3), (2, 3), (1, 3)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: DOWN Iteration: 4
+EJ(Cells: [(4, 4), (3, 4), (2, 4), (1, 4)]
+EJ   Previous values: [4, 2, 4, 2]
+EJ  Moved values: [4, 2, 4, 2]
+EJ&Results: [false, false, false, false]
+EJDirection: UP Iteration: 1
+EJ(Cells: [(1, 1), (2, 1), (3, 1), (4, 1)]
+EJ   Previous values: [4, 2, 4, 2]
+EJ  Moved values: [4, 2, 4, 2]
+EJDirection: UP Iteration: 2
+EJ(Cells: [(1, 2), (2, 2), (3, 2), (4, 2)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: UP Iteration: 3
+EJ(Cells: [(1, 3), (2, 3), (3, 3), (4, 3)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJDirection: UP Iteration: 4
+EJ(Cells: [(1, 4), (2, 4), (3, 4), (4, 4)]
+EJ,  Previous values: [null, null, null, null]
+EJ  Moved values: []
+EJ&Results: [false, false, false, false]
+LK&  Previous values: [null, 2, null, 4]
+LK  Moved values: [2, 4]
+LM&  Previous values: [4, null, 2, null]
+LM  Moved values: [4, 2]
+LN&  Previous values: [null, 2, null, 4]
+LN  Moved values: [2, 4]
+LO   Previous values: [2, 4, 2, 4]
+LO  Moved values: [2, 4, 2, 4]
+LP&  Previous values: [4, null, 2, null]
+LP  Moved values: [4, 2]
